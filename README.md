@@ -1,32 +1,39 @@
-# Library Management System (LMS)
+# Library Management System
 
-A web-based Library Management System developed using PHP, MySQL, HTML, Tailwind CSS.
+
+## About
+
+Library Management System developed using PHP and MySQL.
+
 
 ## Features
 
-### Admin
-- Admin Login
-- Admin Dashboard
-- Manage Students
-- Add / Manage Books
-- Approve or Reject Book Requests
-- Issue and Return Books
-- Fine Management
-- Admin Profile Management
-
-### Student
-- Student Registration with Profile Image Upload
+- Student Registration
 - Student Login
-- View Available Books
-- Request Books
-- View Issued Books
-- View Fine Details
-- Manage Profile
+- Admin Dashboard
+- Book Management
+- Book Request System
+- Issue and Return Books
+- Automatic Fine Calculation
+- Profile Management
+- Forgot Password System
 
-## Technologies Used
+
+## Technologies
 
 - PHP
 - MySQL
-- HTML
 - Tailwind CSS
+- HTML
 - JavaScript
+
+
+## Installation
+
+1. Install XAMPP
+2. Copy project into: htdocs/LMS
+3. Create database: library
+4. Import database.sql
+5. Update database configuration
+6. Run: http://localhost/LMS
+
