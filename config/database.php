@@ -1,8 +1,8 @@
 <?php
-$host="localhost";
-$user="root";
-$password="###";
-$db="library";
+$host="HOST";
+$user="USERNAME";
+$password="PASSWORD";
+$db="DATABASE";
 
 $conn=mysqli_connect(
 $host,
